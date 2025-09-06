@@ -1,0 +1,14 @@
+StepDefinition\PageClass.class
+StepDefinition\Logout.class
+StepDefinition\Login.class
+StepDefinition\Checkout.class
+StepDefinition\Addtocart.class
+StepDefinition\Favourites.class
+StepDefinition\Headerlinks.class
+StepDefinition\Subscribeemail.class
+StepDefinition\Footerlink.class
+StepDefinition\Search.class
+StepDefinition\Filters.class
+StepDefinition\TestRunner.class
+StepDefinition\Vendors.class
+StepDefinition\Removefromcart.class

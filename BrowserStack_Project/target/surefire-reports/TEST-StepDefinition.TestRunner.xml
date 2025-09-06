@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="StepDefinition.TestRunner" time="118.901" tests="14" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\java_selenium\BrowserStack_Project\target\test-classes;D:\java_selenium\BrowserStack_Project\target\classes;C:\Users\SAI KIRAN\.m2\repository\io\cucumber\cucumber-core\7.27.2\cucumber-core-7.27.2.jar;C:\Users\SAI KIRAN\.m2\repository\io\cucumber\cucumber-gherkin\7.27.2\cucumber-gherkin-7.27.2.jar;C:\Users\SAI KIRAN\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.27.2\cucumber-gherkin-messages-7.27.2.jar;C:\Users\SAI KIRAN\.m2\repository\io\cucumber\gherkin\34.0.0\gherkin-34.0.0.jar;C:\Users\SAI KIRAN\.m2\repository\org\assertj\assertj-core\3.27.4\assertj-core-3.27.4.jar;C:\Users\SAI KIRAN\.m2\repository\io\cucumber\messages\28.1.0\messages-28.1.0.jar;C:\Users\SAI KIRAN\.m2\repository\io\cucumber\pretty-formatter\2.1.0\pretty-formatter-2.1.0.jar;C:\Users\SAI KIRAN\.m2\repository\io\cucumber\query\13.6.0\query-13.6.0.jar;C:\Users\SAI KIRAN\.m2\repository\io\cucumber\testng-xml-formatter\0.5.0\testng-xml-formatter-0.5.0.jar;C:\Users\SAI KIRAN\.m2\repository\io\cucumber\tag-expressions\6.1.2\tag-expressions-6.1.2.jar;C:\Users\SAI KIRAN\.m2\repository\io\cucumber\cucumber-expressions\18.0.1\cucumber-expressions-18.0.1.jar;C:\Users\SAI KIRAN\.m2\repository\io\cucumber\datatable\7.27.2\datatable-7.27.2.jar;C:\Users\SAI KIRAN\.m2\repository\io\cucumber\cucumber-plugin\7.27.2\cucumber-plugin-7.27.2.jar;C:\Users\SAI KIRAN\.m2\repository\io\cucumber\docstring\7.27.2\docstring-7.27.2.jar;C:\Users\SAI KIRAN\.m2\repository\io\cucumber\html-formatter\21.13.0\html-formatter-21.13.0.jar;C:\Users\SAI KIRAN\.m2\repository\io\cucumber\junit-xml-formatter\0.8.1\junit-xml-formatter-0.8.1.jar;C:\Users\SAI KIRAN\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\SAI KIRAN\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\SAI KIRAN\.m2\repository\io\cucumber\cucumber-java\7.27.2\cucumber-java-7.27.2.jar;C:\Users\SAI KIRAN\.m2\repository\io\cucumber\cucumber-junit\7.27.2\cucumber-junit-7.27.2.jar;C:\Users\SAI KIRAN\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\SAI KIRAN\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\SAI KIRAN\.m2\repository\io\cucumber\cucumber-testng\7.27.2\cucumber-testng-7.27.2.jar;C:\Users\SAI KIRAN\.m2\repository\org\testng\testng\7.11.0\testng-7.11.0.jar;C:\Users\SAI KIRAN\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\SAI KIRAN\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\SAI KIRAN\.m2\repository\org\apache\poi\poi\5.2.5\poi-5.2.5.jar;C:\Users\SAI KIRAN\.m2\repository\commons-codec\commons-codec\1.16.0\commons-codec-1.16.0.jar;C:\Users\SAI KIRAN\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\SAI KIRAN\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\SAI KIRAN\.m2\repository\commons-io\commons-io\2.15.0\commons-io-2.15.0.jar;C:\Users\SAI KIRAN\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\SAI KIRAN\.m2\repository\org\apache\logging\log4j\log4j-api\2.21.1\log4j-api-2.21.1.jar;C:\Users\SAI KIRAN\.m2\repository\org\apache\poi\poi-ooxml\5.2.5\poi-ooxml-5.2.5.jar;C:\Users\SAI KIRAN\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.5\poi-ooxml-lite-5.2.5.jar;C:\Users\SAI KIRAN\.m2\repository\org\apache\xmlbeans\xmlbeans\5.2.0\xmlbeans-5.2.0.jar;C:\Users\SAI KIRAN\.m2\repository\org\apache\commons\commons-compress\1.25.0\commons-compress-1.25.0.jar;C:\Users\SAI KIRAN\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\SAI KIRAN\.m2\repository\org\mockito\mockito-core\5.7.0\mockito-core-5.7.0.jar;C:\Users\SAI KIRAN\.m2\repository\net\bytebuddy\byte-buddy\1.14.9\byte-buddy-1.14.9.jar;C:\Users\SAI KIRAN\.m2\repository\net\bytebuddy\byte-buddy-agent\1.14.9\byte-buddy-agent-1.14.9.jar;C:\Users\SAI KIRAN\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;C:\Users\SAI KIRAN\.m2\repository\org\mockito\mockito-inline\5.2.0\mockito-inline-5.2.0.jar;C:\Users\SAI KIRAN\.m2\repository\io\github\bonigarcia\webdrivermanager\6.2.0\webdrivermanager-6.2.0.jar;C:\Users\SAI KIRAN\.m2\repository\org\slf4j\slf4j-api\2.0.17\slf4j-api-2.0.17.jar;C:\Users\SAI KIRAN\.m2\repository\com\google\code\gson\gson\2.13.1\gson-2.13.1.jar;C:\Users\SAI KIRAN\.m2\repository\com\google\errorprone\error_prone_annotations\2.38.0\error_prone_annotations-2.38.0.jar;C:\Users\SAI KIRAN\.m2\repository\com\github\docker-java\docker-java\3.5.3\docker-java-3.5.3.jar;C:\Users\SAI KIRAN\.m2\repository\com\github\docker-java\docker-java-core\3.5.3\docker-java-core-3.5.3.jar;C:\Users\SAI KIRAN\.m2\repository\com\github\docker-java\docker-java-api\3.5.3\docker-java-api-3.5.3.jar;C:\Users\SAI KIRAN\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.18.4\jackson-annotations-2.18.4.jar;C:\Users\SAI KIRAN\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.18.4\jackson-databind-2.18.4.jar;C:\Users\SAI KIRAN\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.18.4\jackson-core-2.18.4.jar;C:\Users\SAI KIRAN\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\SAI KIRAN\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.5.3\docker-java-transport-httpclient5-3.5.3.jar;C:\Users\SAI KIRAN\.m2\repository\com\github\docker-java\docker-java-transport\3.5.3\docker-java-transport-3.5.3.jar;C:\Users\SAI KIRAN\.m2\repository\net\java\dev\jna\jna\5.17.0\jna-5.17.0.jar;C:\Users\SAI KIRAN\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\SAI KIRAN\.m2\repository\org\apache\commons\commons-lang3\3.18.0\commons-lang3-3.18.0.jar;C:\Users\SAI KIRAN\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.4.3\httpclient5-5.4.3.jar;C:\Users\SAI KIRAN\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.3.4\httpcore5-5.3.4.jar;C:\Users\SAI KIRAN\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.3.4\httpcore5-h2-5.3.4.jar;C:\Users\SAI KIRAN\.m2\repository\net\java\dev\jna\jna-platform\5.17.0\jna-platform-5.17.0.jar;C:\Users\SAI KIRAN\.m2\repository\org\seleniumhq\selenium\selenium-java\4.22.0\selenium-java-4.22.0.jar;C:\Users\SAI KIRAN\.m2\repository\org\seleniumhq\selenium\selenium-api\4.22.0\selenium-api-4.22.0.jar;C:\Users\SAI KIRAN\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.22.0\selenium-chrome-driver-4.22.0.jar;C:\Users\SAI KIRAN\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\SAI KIRAN\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.22.0\selenium-chromium-driver-4.22.0.jar;C:\Users\SAI KIRAN\.m2\repository\org\seleniumhq\selenium\selenium-json\4.22.0\selenium-json-4.22.0.jar;C:\Users\SAI KIRAN\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.22.0\selenium-manager-4.22.0.jar;C:\Users\SAI KIRAN\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v124\4.22.0\selenium-devtools-v124-4.22.0.jar;C:\Users\SAI KIRAN\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v125\4.22.0\selenium-devtools-v125-4.22.0.jar;C:\Users\SAI KIRAN\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v126\4.22.0\selenium-devtools-v126-4.22.0.jar;C:\Users\SAI KIRAN\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.22.0\selenium-devtools-v85-4.22.0.jar;C:\Users\SAI KIRAN\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.22.0\selenium-edge-driver-4.22.0.jar;C:\Users\SAI KIRAN\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.22.0\selenium-firefox-driver-4.22.0.jar;C:\Users\SAI KIRAN\.m2\repository\org\seleniumhq\selenium\selenium-http\4.22.0\selenium-http-4.22.0.jar;C:\Users\SAI KIRAN\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\SAI KIRAN\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.22.0\selenium-ie-driver-4.22.0.jar;C:\Users\SAI KIRAN\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.22.0\selenium-remote-driver-4.22.0.jar;C:\Users\SAI KIRAN\.m2\repository\com\google\guava\guava\33.2.1-jre\guava-33.2.1-jre.jar;C:\Users\SAI KIRAN\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\SAI KIRAN\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\SAI KIRAN\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\SAI KIRAN\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\SAI KIRAN\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\SAI KIRAN\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\SAI KIRAN\.m2\repository\io\opentelemetry\opentelemetry-api\1.39.0\opentelemetry-api-1.39.0.jar;C:\Users\SAI KIRAN\.m2\repository\io\opentelemetry\opentelemetry-context\1.39.0\opentelemetry-context-1.39.0.jar;C:\Users\SAI KIRAN\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.39.0\opentelemetry-exporter-logging-1.39.0.jar;C:\Users\SAI KIRAN\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.39.0\opentelemetry-sdk-common-1.39.0.jar;C:\Users\SAI KIRAN\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.39.0\opentelemetry-sdk-extension-autoconfigure-spi-1.39.0.jar;C:\Users\SAI KIRAN\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.39.0\opentelemetry-sdk-extension-autoconfigure-1.39.0.jar;C:\Users\SAI KIRAN\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.39.0-alpha\opentelemetry-api-incubator-1.39.0-alpha.jar;C:\Users\SAI KIRAN\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.39.0\opentelemetry-sdk-trace-1.39.0.jar;C:\Users\SAI KIRAN\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.39.0\opentelemetry-sdk-1.39.0.jar;C:\Users\SAI KIRAN\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.39.0\opentelemetry-sdk-metrics-1.39.0.jar;C:\Users\SAI KIRAN\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.39.0\opentelemetry-sdk-logs-1.39.0.jar;C:\Users\SAI KIRAN\.m2\repository\org\seleniumhq\selenium\selenium-os\4.22.0\selenium-os-4.22.0.jar;C:\Users\SAI KIRAN\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\SAI KIRAN\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.22.0\selenium-safari-driver-4.22.0.jar;C:\Users\SAI KIRAN\.m2\repository\org\seleniumhq\selenium\selenium-support\4.22.0\selenium-support-4.22.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
+    <property name="sun.java.command" value="C:\Users\SAI KIRAN\AppData\Local\Temp\surefire8113832261264153005\surefirebooter-20250905101809970_3.jar C:\Users\SAI KIRAN\AppData\Local\Temp\surefire8113832261264153005 2025-09-05T10-18-09_781-jvmRun1 surefire-20250905101809970_1tmp surefire_0-20250905101809970_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\java_selenium\BrowserStack_Project\target\test-classes;D:\java_selenium\BrowserStack_Project\target\classes;C:\Users\SAI KIRAN\.m2\repository\io\cucumber\cucumber-core\7.27.2\cucumber-core-7.27.2.jar;C:\Users\SAI KIRAN\.m2\repository\io\cucumber\cucumber-gherkin\7.27.2\cucumber-gherkin-7.27.2.jar;C:\Users\SAI KIRAN\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.27.2\cucumber-gherkin-messages-7.27.2.jar;C:\Users\SAI KIRAN\.m2\repository\io\cucumber\gherkin\34.0.0\gherkin-34.0.0.jar;C:\Users\SAI KIRAN\.m2\repository\org\assertj\assertj-core\3.27.4\assertj-core-3.27.4.jar;C:\Users\SAI KIRAN\.m2\repository\io\cucumber\messages\28.1.0\messages-28.1.0.jar;C:\Users\SAI KIRAN\.m2\repository\io\cucumber\pretty-formatter\2.1.0\pretty-formatter-2.1.0.jar;C:\Users\SAI KIRAN\.m2\repository\io\cucumber\query\13.6.0\query-13.6.0.jar;C:\Users\SAI KIRAN\.m2\repository\io\cucumber\testng-xml-formatter\0.5.0\testng-xml-formatter-0.5.0.jar;C:\Users\SAI KIRAN\.m2\repository\io\cucumber\tag-expressions\6.1.2\tag-expressions-6.1.2.jar;C:\Users\SAI KIRAN\.m2\repository\io\cucumber\cucumber-expressions\18.0.1\cucumber-expressions-18.0.1.jar;C:\Users\SAI KIRAN\.m2\repository\io\cucumber\datatable\7.27.2\datatable-7.27.2.jar;C:\Users\SAI KIRAN\.m2\repository\io\cucumber\cucumber-plugin\7.27.2\cucumber-plugin-7.27.2.jar;C:\Users\SAI KIRAN\.m2\repository\io\cucumber\docstring\7.27.2\docstring-7.27.2.jar;C:\Users\SAI KIRAN\.m2\repository\io\cucumber\html-formatter\21.13.0\html-formatter-21.13.0.jar;C:\Users\SAI KIRAN\.m2\repository\io\cucumber\junit-xml-formatter\0.8.1\junit-xml-formatter-0.8.1.jar;C:\Users\SAI KIRAN\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\SAI KIRAN\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\SAI KIRAN\.m2\repository\io\cucumber\cucumber-java\7.27.2\cucumber-java-7.27.2.jar;C:\Users\SAI KIRAN\.m2\repository\io\cucumber\cucumber-junit\7.27.2\cucumber-junit-7.27.2.jar;C:\Users\SAI KIRAN\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\SAI KIRAN\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\SAI KIRAN\.m2\repository\io\cucumber\cucumber-testng\7.27.2\cucumber-testng-7.27.2.jar;C:\Users\SAI KIRAN\.m2\repository\org\testng\testng\7.11.0\testng-7.11.0.jar;C:\Users\SAI KIRAN\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\SAI KIRAN\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\SAI KIRAN\.m2\repository\org\apache\poi\poi\5.2.5\poi-5.2.5.jar;C:\Users\SAI KIRAN\.m2\repository\commons-codec\commons-codec\1.16.0\commons-codec-1.16.0.jar;C:\Users\SAI KIRAN\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\SAI KIRAN\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\SAI KIRAN\.m2\repository\commons-io\commons-io\2.15.0\commons-io-2.15.0.jar;C:\Users\SAI KIRAN\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\SAI KIRAN\.m2\repository\org\apache\logging\log4j\log4j-api\2.21.1\log4j-api-2.21.1.jar;C:\Users\SAI KIRAN\.m2\repository\org\apache\poi\poi-ooxml\5.2.5\poi-ooxml-5.2.5.jar;C:\Users\SAI KIRAN\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.5\poi-ooxml-lite-5.2.5.jar;C:\Users\SAI KIRAN\.m2\repository\org\apache\xmlbeans\xmlbeans\5.2.0\xmlbeans-5.2.0.jar;C:\Users\SAI KIRAN\.m2\repository\org\apache\commons\commons-compress\1.25.0\commons-compress-1.25.0.jar;C:\Users\SAI KIRAN\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\SAI KIRAN\.m2\repository\org\mockito\mockito-core\5.7.0\mockito-core-5.7.0.jar;C:\Users\SAI KIRAN\.m2\repository\net\bytebuddy\byte-buddy\1.14.9\byte-buddy-1.14.9.jar;C:\Users\SAI KIRAN\.m2\repository\net\bytebuddy\byte-buddy-agent\1.14.9\byte-buddy-agent-1.14.9.jar;C:\Users\SAI KIRAN\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;C:\Users\SAI KIRAN\.m2\repository\org\mockito\mockito-inline\5.2.0\mockito-inline-5.2.0.jar;C:\Users\SAI KIRAN\.m2\repository\io\github\bonigarcia\webdrivermanager\6.2.0\webdrivermanager-6.2.0.jar;C:\Users\SAI KIRAN\.m2\repository\org\slf4j\slf4j-api\2.0.17\slf4j-api-2.0.17.jar;C:\Users\SAI KIRAN\.m2\repository\com\google\code\gson\gson\2.13.1\gson-2.13.1.jar;C:\Users\SAI KIRAN\.m2\repository\com\google\errorprone\error_prone_annotations\2.38.0\error_prone_annotations-2.38.0.jar;C:\Users\SAI KIRAN\.m2\repository\com\github\docker-java\docker-java\3.5.3\docker-java-3.5.3.jar;C:\Users\SAI KIRAN\.m2\repository\com\github\docker-java\docker-java-core\3.5.3\docker-java-core-3.5.3.jar;C:\Users\SAI KIRAN\.m2\repository\com\github\docker-java\docker-java-api\3.5.3\docker-java-api-3.5.3.jar;C:\Users\SAI KIRAN\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.18.4\jackson-annotations-2.18.4.jar;C:\Users\SAI KIRAN\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.18.4\jackson-databind-2.18.4.jar;C:\Users\SAI KIRAN\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.18.4\jackson-core-2.18.4.jar;C:\Users\SAI KIRAN\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\SAI KIRAN\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.5.3\docker-java-transport-httpclient5-3.5.3.jar;C:\Users\SAI KIRAN\.m2\repository\com\github\docker-java\docker-java-transport\3.5.3\docker-java-transport-3.5.3.jar;C:\Users\SAI KIRAN\.m2\repository\net\java\dev\jna\jna\5.17.0\jna-5.17.0.jar;C:\Users\SAI KIRAN\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\SAI KIRAN\.m2\repository\org\apache\commons\commons-lang3\3.18.0\commons-lang3-3.18.0.jar;C:\Users\SAI KIRAN\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.4.3\httpclient5-5.4.3.jar;C:\Users\SAI KIRAN\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.3.4\httpcore5-5.3.4.jar;C:\Users\SAI KIRAN\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.3.4\httpcore5-h2-5.3.4.jar;C:\Users\SAI KIRAN\.m2\repository\net\java\dev\jna\jna-platform\5.17.0\jna-platform-5.17.0.jar;C:\Users\SAI KIRAN\.m2\repository\org\seleniumhq\selenium\selenium-java\4.22.0\selenium-java-4.22.0.jar;C:\Users\SAI KIRAN\.m2\repository\org\seleniumhq\selenium\selenium-api\4.22.0\selenium-api-4.22.0.jar;C:\Users\SAI KIRAN\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.22.0\selenium-chrome-driver-4.22.0.jar;C:\Users\SAI KIRAN\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\SAI KIRAN\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.22.0\selenium-chromium-driver-4.22.0.jar;C:\Users\SAI KIRAN\.m2\repository\org\seleniumhq\selenium\selenium-json\4.22.0\selenium-json-4.22.0.jar;C:\Users\SAI KIRAN\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.22.0\selenium-manager-4.22.0.jar;C:\Users\SAI KIRAN\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v124\4.22.0\selenium-devtools-v124-4.22.0.jar;C:\Users\SAI KIRAN\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v125\4.22.0\selenium-devtools-v125-4.22.0.jar;C:\Users\SAI KIRAN\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v126\4.22.0\selenium-devtools-v126-4.22.0.jar;C:\Users\SAI KIRAN\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.22.0\selenium-devtools-v85-4.22.0.jar;C:\Users\SAI KIRAN\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.22.0\selenium-edge-driver-4.22.0.jar;C:\Users\SAI KIRAN\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.22.0\selenium-firefox-driver-4.22.0.jar;C:\Users\SAI KIRAN\.m2\repository\org\seleniumhq\selenium\selenium-http\4.22.0\selenium-http-4.22.0.jar;C:\Users\SAI KIRAN\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\SAI KIRAN\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.22.0\selenium-ie-driver-4.22.0.jar;C:\Users\SAI KIRAN\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.22.0\selenium-remote-driver-4.22.0.jar;C:\Users\SAI KIRAN\.m2\repository\com\google\guava\guava\33.2.1-jre\guava-33.2.1-jre.jar;C:\Users\SAI KIRAN\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\SAI KIRAN\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\SAI KIRAN\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\SAI KIRAN\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\SAI KIRAN\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\SAI KIRAN\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\SAI KIRAN\.m2\repository\io\opentelemetry\opentelemetry-api\1.39.0\opentelemetry-api-1.39.0.jar;C:\Users\SAI KIRAN\.m2\repository\io\opentelemetry\opentelemetry-context\1.39.0\opentelemetry-context-1.39.0.jar;C:\Users\SAI KIRAN\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.39.0\opentelemetry-exporter-logging-1.39.0.jar;C:\Users\SAI KIRAN\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.39.0\opentelemetry-sdk-common-1.39.0.jar;C:\Users\SAI KIRAN\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.39.0\opentelemetry-sdk-extension-autoconfigure-spi-1.39.0.jar;C:\Users\SAI KIRAN\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.39.0\opentelemetry-sdk-extension-autoconfigure-1.39.0.jar;C:\Users\SAI KIRAN\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.39.0-alpha\opentelemetry-api-incubator-1.39.0-alpha.jar;C:\Users\SAI KIRAN\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.39.0\opentelemetry-sdk-trace-1.39.0.jar;C:\Users\SAI KIRAN\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.39.0\opentelemetry-sdk-1.39.0.jar;C:\Users\SAI KIRAN\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.39.0\opentelemetry-sdk-metrics-1.39.0.jar;C:\Users\SAI KIRAN\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.39.0\opentelemetry-sdk-logs-1.39.0.jar;C:\Users\SAI KIRAN\.m2\repository\org\seleniumhq\selenium\selenium-os\4.22.0\selenium-os-4.22.0.jar;C:\Users\SAI KIRAN\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\SAI KIRAN\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.22.0\selenium-safari-driver-4.22.0.jar;C:\Users\SAI KIRAN\.m2\repository\org\seleniumhq\selenium\selenium-support\4.22.0\selenium-support-4.22.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\SAI KIRAN"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-07-16"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\java_selenium\BrowserStack_Project"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\SAI KIRAN\AppData\Local\Temp\surefire8113832261264153005\surefirebooter-20250905101809970_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.12+8-LTS-286"/>
+    <property name="user.name" value="SAI KIRAN"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\SAI KIRAN\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\SAIKIR~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.12"/>
+    <property name="user.dir" value="D:\java_selenium\BrowserStack_Project"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk-17\bin;C:\Program Files\Java\jdk-24\bin;D:\Selenium\apache-maven-3.9.11-bin\apache-maven-3.9.11\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-17\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Program Files\Java\jdk-24\bin;C:\Users\SAI KIRAN\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.12+8-LTS-286"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="Successful login" classname="Checking user login" time="6.872">
+    <system-out><![CDATA[
+&amp#27;[1mScenario:&amp#27;[22m Successful login                                         &amp#27;[90m# file:///D:/java_selenium/BrowserStack_Project/src/test/resources/features/01_Login.feature:2&amp#27;[39m
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mGiven &amp#27;[22mBrowserstack website should be opened in default browser&amp#27;[39m &amp#27;[90m# StepDefinition.Login.Browserstack_website_should_be_opened_in_default_browser()&amp#27;[39m
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22mClick on signin link and add username and password&amp#27;[39m         &amp#27;[90m# StepDefinition.Login.Click_on_signin_link_and_add_username_and_password()&amp#27;[39m
+Login Successful
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mThen &amp#27;[22mclick on login button&amp#27;[39m                                     &amp#27;[90m# StepDefinition.Login.click_on_login_button()&amp#27;[39m
+]]></system-out>
+    <system-err><![CDATA[Sep 05, 2025 10:18:13 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 139
+Sep 05, 2025 10:18:13 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 139.0.7258.155. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.22.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="search feature #1" classname="Search Future" time="9.262">
+    <system-out><![CDATA[
+&amp#27;[1mScenario Outline:&amp#27;[22m search feature             &amp#27;[90m# file:///D:/java_selenium/BrowserStack_Project/src/test/resources/features/02_Search.feature:8&amp#27;[39m
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mGiven &amp#27;[22mopen home page in default browser&amp#27;[39m  &amp#27;[90m# StepDefinition.Search.open_home_page_in_default_browser()&amp#27;[39m
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mWhen &amp#27;[22mgo to &amp#27;[1mApple&amp#27;[22m and add text and search&amp#27;[39m &amp#27;[90m# StepDefinition.Search.go_to_search_and_add_text_and_search(java.lang.String)&amp#27;[39m
+Search Completed
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mThen &amp#27;[22mclose driver&amp#27;[39m                        &amp#27;[90m# StepDefinition.Search.close_driver()&amp#27;[39m
+]]></system-out>
+    <system-err><![CDATA[Sep 05, 2025 10:18:19 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 139
+Sep 05, 2025 10:18:19 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 139.0.7258.155. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.22.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="search feature #2" classname="Search Future" time="6.641">
+    <system-out><![CDATA[
+&amp#27;[1mScenario Outline:&amp#27;[22m search feature              &amp#27;[90m# file:///D:/java_selenium/BrowserStack_Project/src/test/resources/features/02_Search.feature:9&amp#27;[39m
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mGiven &amp#27;[22mopen home page in default browser&amp#27;[39m   &amp#27;[90m# StepDefinition.Search.open_home_page_in_default_browser()&amp#27;[39m
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mWhen &amp#27;[22mgo to &amp#27;[1mGoogle&amp#27;[22m and add text and search&amp#27;[39m &amp#27;[90m# StepDefinition.Search.go_to_search_and_add_text_and_search(java.lang.String)&amp#27;[39m
+Search Completed
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mThen &amp#27;[22mclose driver&amp#27;[39m                         &amp#27;[90m# StepDefinition.Search.close_driver()&amp#27;[39m
+]]></system-out>
+    <system-err><![CDATA[Sep 05, 2025 10:18:28 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 139
+Sep 05, 2025 10:18:28 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 139.0.7258.155. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.22.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="search feature #3" classname="Search Future" time="7.098">
+    <system-out><![CDATA[
+&amp#27;[1mScenario Outline:&amp#27;[22m search feature               &amp#27;[90m# file:///D:/java_selenium/BrowserStack_Project/src/test/resources/features/02_Search.feature:10&amp#27;[39m
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mGiven &amp#27;[22mopen home page in default browser&amp#27;[39m    &amp#27;[90m# StepDefinition.Search.open_home_page_in_default_browser()&amp#27;[39m
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mWhen &amp#27;[22mgo to &amp#27;[1mSamsung&amp#27;[22m and add text and search&amp#27;[39m &amp#27;[90m# StepDefinition.Search.go_to_search_and_add_text_and_search(java.lang.String)&amp#27;[39m
+Search Completed
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mThen &amp#27;[22mclose driver&amp#27;[39m                          &amp#27;[90m# StepDefinition.Search.close_driver()&amp#27;[39m
+]]></system-out>
+    <system-err><![CDATA[Sep 05, 2025 10:18:35 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 139
+Sep 05, 2025 10:18:35 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 139.0.7258.155. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.22.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="Adding and removing items as favourites" classname="Checking favourites Section" time="8.548">
+    <system-out><![CDATA[
+&amp#27;[1mScenario:&amp#27;[22m Adding and removing items as favourites       &amp#27;[90m# file:///D:/java_selenium/BrowserStack_Project/src/test/resources/features/03_Favourites.feature:2&amp#27;[39m
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mGiven &amp#27;[22mHome page should be opened in default browser&amp#27;[39m &amp#27;[90m# StepDefinition.Favourites.Home_page_should_be_opened_in_default_browser()&amp#27;[39m
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mWhen &amp#27;[22mClick on signinlink and signin&amp#27;[39m                 &amp#27;[90m# StepDefinition.Favourites.click_on_signinlink_and_signin()&amp#27;[39m
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22madd an item to favourites&amp#27;[39m                       &amp#27;[90m# StepDefinition.Favourites.add_an_item_to_favourites()&amp#27;[39m
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22mcheck the item in favourites section&amp#27;[39m            &amp#27;[90m# StepDefinition.Favourites.check_the_item_in_favourites_section()&amp#27;[39m
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22mclick on the logo&amp#27;[39m                               &amp#27;[90m# StepDefinition.Favourites.click_on_the_logo()&amp#27;[39m
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22mremove the item from favourites&amp#27;[39m                 &amp#27;[90m# StepDefinition.Favourites.remove_the_item_from_favourites()&amp#27;[39m
+Favourites Done 
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mThen &amp#27;[22mclose the driver&amp#27;[39m                               &amp#27;[90m# StepDefinition.Favourites.close_the_driver()&amp#27;[39m
+]]></system-out>
+    <system-err><![CDATA[Sep 05, 2025 10:18:42 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 139
+Sep 05, 2025 10:18:42 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 139.0.7258.155. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.22.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="add to cart" classname="Checking add to cart functionality" time="7.839">
+    <system-out><![CDATA[
+&amp#27;[1mScenario:&amp#27;[22m add to cart                                &amp#27;[90m# file:///D:/java_selenium/BrowserStack_Project/src/test/resources/features/04_Addtocart.feature:2&amp#27;[39m
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mGiven &amp#27;[22mHome page opened in default browser&amp#27;[39m        &amp#27;[90m# StepDefinition.Addtocart.Home_page_opened_in_default_browser()&amp#27;[39m
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mWhen &amp#27;[22mclick on signin and signin with credentials&amp#27;[39m &amp#27;[90m# StepDefinition.Addtocart.click_on_signin_and_signin_with_credentials()&amp#27;[39m
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22mAdd an item to cart&amp#27;[39m                          &amp#27;[90m# StepDefinition.Addtocart.add_an_item_to_cart()&amp#27;[39m
+Item Added to cart 
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mThen &amp#27;[22mclose the popup&amp#27;[39m                             &amp#27;[90m# StepDefinition.Addtocart.close_the_popup()&amp#27;[39m
+]]></system-out>
+    <system-err><![CDATA[Sep 05, 2025 10:18:50 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 139
+Sep 05, 2025 10:18:50 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 139.0.7258.155. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.22.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="Remove from cart" classname="Remove from cart" time="9.193">
+    <system-out><![CDATA[
+&amp#27;[1mScenario:&amp#27;[22m Remove from cart                               &amp#27;[90m# file:///D:/java_selenium/BrowserStack_Project/src/test/resources/features/05_Removefromcart.feature:2&amp#27;[39m
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mGiven &amp#27;[22mOpen homepage in default browser&amp#27;[39m               &amp#27;[90m# StepDefinition.Removefromcart.open_homepage_in_default_browser()&amp#27;[39m
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mWhen &amp#27;[22mclick on signin and then login with credentials&amp#27;[39m &amp#27;[90m# StepDefinition.Removefromcart.click_on_signin_and_then_login_with_credentials()&amp#27;[39m
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22madd an item to cart&amp#27;[39m                              &amp#27;[90m# StepDefinition.Removefromcart.add_an_item_to_cart()&amp#27;[39m
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22mremove the item from cart&amp#27;[39m                        &amp#27;[90m# StepDefinition.Removefromcart.remove_the_item_from_cart()&amp#27;[39m
+Item removed from cart
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mThen &amp#27;[22mclose the cart&amp#27;[39m                                  &amp#27;[90m# StepDefinition.Removefromcart.close_the_cart()&amp#27;[39m
+]]></system-out>
+    <system-err><![CDATA[Sep 05, 2025 10:18:58 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 139
+Sep 05, 2025 10:18:58 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 139.0.7258.155. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.22.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="Filters" classname="Checking Filters working or not" time="6.571">
+    <system-out><![CDATA[
+&amp#27;[1mScenario:&amp#27;[22m Filters                                  &amp#27;[90m# file:///D:/java_selenium/BrowserStack_Project/src/test/resources/features/06_Filters.feature:2&amp#27;[39m
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mGiven &amp#27;[22mopen the homepage in default browser&amp#27;[39m     &amp#27;[90m# StepDefinition.Filters.open_the_homepage_in_default_browser()&amp#27;[39m
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mWhen &amp#27;[22mselect multiple selections using dropdown&amp#27;[39m &amp#27;[90m# StepDefinition.Filters.select_multiple_selections_using_dropdown()&amp#27;[39m
+Filters completed
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mThen &amp#27;[22mclosing the driver&amp#27;[39m                        &amp#27;[90m# StepDefinition.Filters.closing_the_driver()&amp#27;[39m
+]]></system-out>
+    <system-err><![CDATA[Sep 05, 2025 10:19:07 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 139
+Sep 05, 2025 10:19:07 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 139.0.7258.155. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.22.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="Footer links" classname="Checking Footer links" time="7.095">
+    <system-out><![CDATA[
+&amp#27;[1mScenario:&amp#27;[22m Footer links                         &amp#27;[90m# file:///D:/java_selenium/BrowserStack_Project/src/test/resources/features/07_Footerlink.feature:2&amp#27;[39m
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mGiven &amp#27;[22mopen homepage in the default browser&amp#27;[39m &amp#27;[90m# StepDefinition.Footerlink.open_homepage_in_the_default_browser()&amp#27;[39m
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mWhen &amp#27;[22mclick on the link in footer&amp#27;[39m           &amp#27;[90m# StepDefinition.Footerlink.click_on_the_link_in_footer()&amp#27;[39m
+Footer link Clicked
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mThen &amp#27;[22mprint the message&amp#27;[39m                     &amp#27;[90m# StepDefinition.Footerlink.print_the_message()&amp#27;[39m
+]]></system-out>
+    <system-err><![CDATA[Sep 05, 2025 10:19:14 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 139
+Sep 05, 2025 10:19:14 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 139.0.7258.155. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.22.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="Vendors selection" classname="Vendors Selection" time="10.665">
+    <system-out><![CDATA[
+&amp#27;[1mScenario:&amp#27;[22m Vendors selection                         &amp#27;[90m# file:///D:/java_selenium/BrowserStack_Project/src/test/resources/features/08_Vendors.feature:2&amp#27;[39m
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mGiven &amp#27;[22mopen the home page in the default browser&amp#27;[39m &amp#27;[90m# StepDefinition.Vendors.open_the_home_page_in_the_default_browser()&amp#27;[39m
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mWhen &amp#27;[22mselect vendors and deselect vendors&amp#27;[39m        &amp#27;[90m# StepDefinition.Vendors.select_vendors_and_deselect_vendors()&amp#27;[39m
+Vendors selection completed
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mThen &amp#27;[22mlastly closing the driver&amp#27;[39m                  &amp#27;[90m# StepDefinition.Vendors.lastly_closing_the_driver()&amp#27;[39m
+]]></system-out>
+    <system-err><![CDATA[Sep 05, 2025 10:19:21 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 139
+Sep 05, 2025 10:19:21 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 139.0.7258.155. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.22.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="header links" classname="Header links" time="13.095">
+    <system-out><![CDATA[
+&amp#27;[1mScenario:&amp#27;[22m header links                           &amp#27;[90m# file:///D:/java_selenium/BrowserStack_Project/src/test/resources/features/09_Headerlinks.feature:2&amp#27;[39m
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mGiven &amp#27;[22mopen website in default browser&amp#27;[39m        &amp#27;[90m# StepDefinition.Headerlinks.open_website_in_default_browser()&amp#27;[39m
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mWhen &amp#27;[22mclick on signin and signin with details&amp#27;[39m &amp#27;[90m# StepDefinition.Headerlinks.click_on_signin_and_signin_with_details()&amp#27;[39m
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22mnavigate to offers&amp#27;[39m                       &amp#27;[90m# StepDefinition.Headerlinks.navigate_to_offers()&amp#27;[39m
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22mnavigate to favourites&amp#27;[39m                   &amp#27;[90m# StepDefinition.Headerlinks.navigate_to_favourites()&amp#27;[39m
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22mnavigate to orders&amp#27;[39m                       &amp#27;[90m# StepDefinition.Headerlinks.navigate_to_orders()&amp#27;[39m
+Header links clicked
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mThen &amp#27;[22mclose the browser&amp#27;[39m                       &amp#27;[90m# StepDefinition.Headerlinks.close_the_browser()&amp#27;[39m
+]]></system-out>
+    <system-err><![CDATA[Sep 05, 2025 10:19:31 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 139
+Sep 05, 2025 10:19:31 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 139.0.7258.155. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.22.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Sep 05, 2025 10:19:43 AM org.openqa.selenium.remote.http.WebSocket$Listener onError
+WARNING: Connection reset
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at java.net.http/jdk.internal.net.http.SocketTube.readAvailable(SocketTube.java:1170)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.read(SocketTube.java:833)
+	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowTask.run(SocketTube.java:181)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:230)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:303)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:256)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.signalReadable(SocketTube.java:774)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$ReadEvent.signalEvent(SocketTube.java:957)
+	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowEvent.handle(SocketTube.java:253)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.handleEvent(HttpClientImpl.java:982)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.lambda$run$3(HttpClientImpl.java:937)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:937)
+
+]]></system-err>
+  </testcase>
+  <testcase name="checkout" classname="Checkout functionality" time="11.048">
+    <system-out><![CDATA[
+&amp#27;[1mScenario:&amp#27;[22m checkout                                                     &amp#27;[90m# file:///D:/java_selenium/BrowserStack_Project/src/test/resources/features/10_Checkout.feature:2&amp#27;[39m
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mGiven &amp#27;[22mopen homepage in the default browser window&amp#27;[39m                  &amp#27;[90m# StepDefinition.Checkout.open_homepage_in_the_default_browser_window()&amp#27;[39m
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mWhen &amp#27;[22mclick on signin link and then sign in with signin credentials&amp#27;[39m &amp#27;[90m# StepDefinition.Checkout.click_on_signin_link_and_then_sign_in_with_signin_credentials()&amp#27;[39m
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22madd a product to cart and click on checkout&amp#27;[39m                    &amp#27;[90m# StepDefinition.Checkout.add_a_product_to_cart_and_click_on_checkout()&amp#27;[39m
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22madd all information and click on continue&amp#27;[39m                      &amp#27;[90m# StepDefinition.Checkout.add_all_information_and_click_on_continue()&amp#27;[39m
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22mclick on download pdf&amp#27;[39m                                          &amp#27;[90m# StepDefinition.Checkout.click_on_download_pdf()&amp#27;[39m
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22mclick on continue shopping&amp#27;[39m                                     &amp#27;[90m# StepDefinition.Checkout.click_on_continue_shopping()&amp#27;[39m
+Checkout process completed
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mThen &amp#27;[22mlastly close browser&amp#27;[39m                                          &amp#27;[90m# StepDefinition.Checkout.lastly_close_browser()&amp#27;[39m
+]]></system-out>
+    <system-err><![CDATA[Sep 05, 2025 10:19:45 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 139
+Sep 05, 2025 10:19:45 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 139.0.7258.155. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.22.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Sep 05, 2025 10:19:54 AM org.openqa.selenium.remote.http.WebSocket$Listener onError
+WARNING: Connection reset
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at java.net.http/jdk.internal.net.http.SocketTube.readAvailable(SocketTube.java:1170)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.read(SocketTube.java:833)
+	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowTask.run(SocketTube.java:181)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:230)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:303)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:256)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.signalReadable(SocketTube.java:774)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$ReadEvent.signalEvent(SocketTube.java:957)
+	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowEvent.handle(SocketTube.java:253)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.handleEvent(HttpClientImpl.java:982)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.lambda$run$3(HttpClientImpl.java:937)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:937)
+
+]]></system-err>
+  </testcase>
+  <testcase name="subscribe email" classname="Subscribe email" time="6.402">
+    <system-out><![CDATA[
+&amp#27;[1mScenario:&amp#27;[22m subscribe email                          &amp#27;[90m# file:///D:/java_selenium/BrowserStack_Project/src/test/resources/features/11_Subscribeemail.feature:2&amp#27;[39m
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mGiven &amp#27;[22mopen the homepage in the default browser&amp#27;[39m &amp#27;[90m# StepDefinition.Subscribeemail.open_the_homepage_in_the_default_browser()&amp#27;[39m
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mWhen &amp#27;[22mgo and enter email in subscribe mail box&amp#27;[39m  &amp#27;[90m# StepDefinition.Subscribeemail.go_and_enter_email_in_subscribe_mail_box()&amp#27;[39m
+Subscribe email Completed
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mThen &amp#27;[22mfinally close browser&amp#27;[39m                     &amp#27;[90m# StepDefinition.Subscribeemail.clos_the_browser()&amp#27;[39m
+]]></system-out>
+    <system-err><![CDATA[Sep 05, 2025 10:19:56 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 139
+Sep 05, 2025 10:19:56 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 139.0.7258.155. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.22.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="LOGOUT" classname="Logout Functionality" time="7.902">
+    <system-out><![CDATA[
+&amp#27;[1mScenario:&amp#27;[22m LOGOUT                                           &amp#27;[90m# file:///D:/java_selenium/BrowserStack_Project/src/test/resources/features/12_Logout.feature:2&amp#27;[39m
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mGiven &amp#27;[22mopen the browserstack website in default browser&amp#27;[39m &amp#27;[90m# StepDefinition.Logout.open_the_browserstack_website_in_default_browser()&amp#27;[39m
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mWhen &amp#27;[22mclick on signin and then signin&amp#27;[39m                   &amp#27;[90m# StepDefinition.Logout.click_on_signin_and_then_signin()&amp#27;[39m
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22mclick on logout&amp#27;[39m                                    &amp#27;[90m# StepDefinition.Logout.click_on_logout()&amp#27;[39m
+Logout done successfully
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mThen &amp#27;[22mfinally close the browser&amp#27;[39m                         &amp#27;[90m# StepDefinition.Logout.finally_close_the_browser()&amp#27;[39m
+]]></system-out>
+    <system-err><![CDATA[Sep 05, 2025 10:20:02 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 139
+Sep 05, 2025 10:20:02 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 139.0.7258.155. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.22.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+</testsuite>
