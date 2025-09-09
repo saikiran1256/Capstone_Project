@@ -18,10 +18,10 @@ public class Login {
 	   
 	}
 
-	@Given("Click on signin link and add username and password")
-	public void Click_on_signin_link_and_add_username_and_password() {
+	@Given("^Click on signin link and add (.*) and (.*)$")
+	public void Click_on_signin_link_and_add_username_and_password(String username,String password) {
 		PageClass pg=new PageClass(driver);
-		pg.login();
+		pg.login(username.trim(),password.trim());
 		
 	    
 	}
